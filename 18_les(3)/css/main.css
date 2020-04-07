@@ -1,0 +1,491 @@
+@charset "utf-8";
+body{
+	font-family: "FuturaMediumBT","Noto sanas KR"
+}
+#header{
+	width: 100%;
+	background: url("../images/bg_header.gif");
+}
+#header .header_inner{
+	width:961px;height: 83px;
+	margin:0 auto;
+	position: relative;
+}
+#header .header_inner .gnb{
+	float: left;
+}
+#header .header_inner .gnb li{
+	float: left;
+	position: relative;
+}
+#header .header_inner .gnb li a{
+	display: block;
+	margin:22px 0px 0px 19px;
+	color: #ffffef;
+	font-size: 13px;
+	font-weight: bold;
+}
+#header .header_inner .gnb li a span{
+	position: absolute;
+	left: 0;top: 37px;
+	background: url("../images/bg_join_point.png") no-repeat;
+	width: 68px;height: 21px;
+	color: #ff649a;
+	font-size: 9px;
+	text-align: center;
+	line-height: 21px;
+}
+#header .header_inner h1{
+	position: absolute; left: 50%; top:50%;
+	margin: -28px 0 0 -84px;
+}
+#header .header_inner h1 a{
+	display: block;
+}
+#header .header_inner .util{
+	float: right;
+}
+#header .header_inner .util li{
+	float: left;
+
+}
+#header .header_inner .util li a{
+	display: block;
+	width: 38px; height: 38px;
+	margin: 14px 0px 0px 6px;
+	text-indent: -9999px;
+	
+}
+#header .header_inner .util li .a1{
+	background: url("../images/ico_instagram.png") no-repeat;
+}
+#header .header_inner .util li .a2{
+	background: url("../images/ico_cart.gif") no-repeat;
+	position: relative;
+}
+#header .header_inner .util li .a3{
+	background: url("../images/ico_search.png") no-repeat;
+}
+#header .header_inner .util li .a2 span{
+	position: absolute;
+	left: 0;top: 0;
+	background: url("../images/bg_cart_num.png") no-repeat;
+	width: 20px;height: 20px;
+	margin: -5px 0 0 -5px;
+	text-indent: 0;
+	color: #fff;
+	font-size: 9px;
+	text-align: center;
+	line-height: 20px;
+}
+/*----------------------------------------------------------------------------------*/
+#gnb{
+	width: 960px; height: 50px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	margin: 22px auto 30px;
+	text-align: center;
+}
+/*포지션 메뉴바 만들기 시작시작시작시작시작시작시작시작시작시작*/
+#gnb>li{
+	display: inline-block;
+	margin: 0px 28px;
+	position: relative;
+}
+#gnb>li>a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+#gnb>li:hover .gnb1{
+	color: #009a9f;
+}
+/*#gnb>li:hover .depth2{
+	display: block;
+}*/
+#gnb>li>.depth2{
+	position: absolute;left: 50%;top: 50px;
+	margin-left: -80px;
+	width: 160px; 
+	border:1px solid #000;
+	border-top: 4px solid #000;
+	background: #fff;
+	padding:24px 0px;
+	display: none;
+}
+#gnb>li>.depth2 li{
+	padding: 8px 0px;
+}
+#gnb>li>.depth2 li a{
+	display: block;
+	color: #999;
+	font-size: 13px;
+	width: 160px;
+}
+#gnb>li>.depth2 li a:hover{
+	color: #555;
+	text-decoration: underline;
+}
+#gnb>li:hover .gnb2{
+	color: #7d3ce0;
+}
+#gnb>li:hover .gnb3{
+	color: #ffe02e;
+}
+#gnb>li:hover .gnb4{
+	color: #ff9945;
+}
+#gnb>li:hover .gnb5{
+	color: #99ffd3;
+}
+#gnb>li:hover .gnb6{
+	color: #e10295;
+}
+/*포지션 메뉴바 만들기 끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝*/
+
+
+
+#main .visual{
+	width: 960px;height: 498px;
+	margin:0 auto;
+}
+#main .visual iframe{
+	width: 960px;
+	height: 540px;
+	overflow: hidden;
+}
+.event{
+	width: 960px;
+	height: 400px;
+	margin: 70px auto 50px;
+	overflow: hidden;
+}
+.event li{
+	float: left;
+	text-align: center;
+}	
+.event li a img{
+	width: 320px;
+	height: 320px;
+	transition: all 0.3s;
+}
+.event li a img:hover{
+	opacity: 0.5;
+}
+.event li a h3{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.event li a p{
+	color: #000;
+	font-size: 12px;
+	margin-top: 8px;
+}
+.quick_side{
+	position: fixed;
+	top: 180px;left: 50%;
+	margin-left: 550px;
+}
+.quick_side a{
+	display: block;
+}
+.quick_side a:nth-child(1){
+	background: url("../images/img_q_lemon.png") no-repeat;
+	text-indent: -9999px;
+	width: 46px;
+	height: 45px;
+	transition: all 0.3s;
+}
+.quick_side a:nth-child(1):hover{
+	opacity: 0.5;
+}
+.quick_side a:nth-child(2){
+	background: url("../images/img_q_instagram.png") no-repeat;
+	text-indent: -9999px;
+	width: 46px;
+	height: 45px;
+	margin-top: 5px;
+	transition: all 0.3s;
+}
+.quick_side a:nth-child(2):hover{
+	opacity: 0.5;
+}
+/* -----------------섹션1시작---------------- */
+.section1{
+	width: 960px;
+	height: 763px;
+	margin: 0 auto;
+}
+.section1 h2{
+	text-align: center;
+	background: url("../images/bg_title.gif") repeat-x 0 center;
+}
+.section1 h2 span{
+	background: #fff;
+	padding: 0px 50px 0px 50px;
+}
+.section1 .new_product li{
+	float: left;
+}
+.section1 .new_product li a{
+	display: block;
+	height: 300px;
+	position: relative;
+}
+.section1 .new_product li a .a{
+	transition: all 0.3s;
+}
+.section1 .new_product li a .a:hover{
+	opacity: 0.5;
+}
+.section1 .new_product li a .a1{
+	transition: all 0.3s;
+}
+.section1 .new_product li a .a1:hover{
+	opacity: 0.5;
+}
+.section1 .new_product li a img{
+	width: 240px;
+	height: 240px;
+}
+.section1 .new_product li a h3{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	color: #333333;
+}
+.section1 .new_product li a h4{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	margin-top: 10px;
+	color: #666;
+}
+.section1 .new_product li a h5{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	margin-top: 10px;
+	color: #000;
+}
+.section1 .new_product li a .a1{
+	width: 45px;
+	height: 45px;
+	position: absolute;left: 0;top: 10px;
+}
+/* -----------------섹션2시작---------------- */
+.section2{
+	width: 980px;
+	height: 763px;
+	margin: 0 auto;
+}
+.section2 h2{
+	text-align: center;
+	background: url("../images/bg_title.gif") repeat-x 0 center;
+}
+.section2 h2 span{
+	background: #fff;
+	padding: 0px 50px 0px 50px;
+}
+.section2 .new_product li{
+	float: left;
+}
+.section2 .new_product li a{
+	display: block;
+	height: 300px;
+}
+.section2 .new_product li a img{
+	width: 220px;
+	height: 220px;
+	transition: all 0.3s;
+}
+.section2 .new_product li a img:hover{
+	opacity: 0.5;
+}
+.section2 .new_product li a h3{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	color: #333333;
+}
+.section2 .new_product li a h4{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	margin-top: 10px;
+	color: #666;
+}
+.section2 .new_product li a h5{
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	
+	margin-top: 10px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+	width: 920px;
+	margin: 0 auto;
+
+}
+.section5{
+	width: 100%;
+}
+.section5 .section5_inner_wrap{
+	width: 100%;height: 357px;
+	background: url("../images/bg_site.gif") repeat-x;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #ccc;
+}
+.section5 .section5_inner_wrap .section5_inner{
+	width:961px;height: 357px;
+	margin: 0 auto;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb{
+	margin-top: 37px;
+	float: left;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li{
+	float: left;
+	margin-left: 60px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li:nth-child(1){
+	margin-left: 0px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li:last-child{
+	margin-left: 205px;
+	margin-top: 10px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li>a{
+	display: block;
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li .section5_depth2{
+	margin-top: 18px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li .section5_depth2>li{
+	margin-top: 10px;
+}
+.section5 .section5_inner_wrap .section5_inner .section5_gnb>li .section5_depth2>li>a{
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+}
+#footer{
+	width: 100%;
+	background: #fff;
+	
+}
+#footer .footer_inner{
+	width:961px;height: 130px;
+	margin: 0 auto;
+	position: relative;
+}
+#footer .footer_inner .p1{
+	display: block;
+	color: #333;
+	font-size: 10px;
+	margin-top: 30px;
+}
+#footer .footer_inner .address{
+	display: block;
+	color: #333;
+	font-size: 10px;
+	margin-top: 10px;
+}
+#footer .footer_inner .copy{
+	display: block;
+	color: #757575;
+	font-size: 10px;
+	margin-top: 31px;
+}
+#footer .footer_inner .ins{
+	position: absolute;right:-23px;top:0;
+	width: 33px;height: 33px;
+	background: url("../images/ico_instagram2.png")no-repeat;
+	border: none;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#footer .footer_inner .ins:hover{
+	background: url("../images/ico_instagram2_on.png")no-repeat;
+}
+#footer .footer_inner .btn_button{
+	position: absolute;right: -24px;top: 60px;
+	border: 1px solid #757575;
+	background: #fff;
+	padding:6px 69px 6px 10px;
+	font-size: 9px;
+	background: url("../images/bg_arr_select.png")no-repeat 95% center;
+	cursor: pointer;
+}
+#footer .footer_inner .top_up{
+	width: 45px;height: 45px;
+	background: url("../images/btn_top.png") no-repeat;
+	border: none;
+	text-indent: -9999px;
+	cursor: pointer;
+	position: absolute;right: -115px;top:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

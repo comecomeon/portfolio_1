@@ -1,0 +1,959 @@
+@charset "utf-8";
+@media(max-width:500px){
+    .popup{
+    width: 100%;
+    background: #fff;
+    }
+    .popup .popup_inner{
+        width: 100%;
+    }
+    .popup .popup_inner p{
+    color: #000;
+    line-height: 40px;
+    }
+    .popup .popup_inner p .text1{
+        color: #5f0080;
+    }
+    /* 팝업 끝!!!!!!!!!!!!!!!!! */
+    /* 사이드 메뉴 시작!!!!!!!!! */
+    #side_menu{
+        display: none;
+    }
+    /* 사이드 메뉴 끝!!!!!!!!!!! */
+    .m_menu_wrap{
+        width: 100%;
+    }
+    .m_menu_wrap .m_menu{
+        width: 100%;
+        height: 61px;
+        background-color: #fff;
+        position: fixed;
+    }
+    .m_menu_wrap .m_menu li{
+        display: inline-block;
+    }
+    .m_menu_wrap .m_menu li a{
+        display: inline-block;
+    }
+    /* 업 버튼 */
+    .up_btn{
+        position: fixed;right: 10%;bottom: 10%;
+        width: 40px;
+        height: 40px;
+        z-index: 100;
+        border: none;
+        text-indent: -9999px;
+        background: transparent url("../images/btn_pagetop_v2.webp") no-repeat;
+        background-size: 40px;
+        cursor: pointer;
+    }
+    /* 헤더 시작!!!!!!!!!!!!!!! */
+    #header{
+        background: #5f0080;
+    }
+    #header .header_inner{
+        width: 100%;
+        height: 62px;
+        position: relative;
+    }
+    /* 헤더 탑 시작!!!!!!!!!!! */
+    #header .header_inner .header_inner_top{
+        display: none;
+    }
+    #header .header_inner h1 a{
+        display: block;
+        width: 76px;
+        height: 46px;
+        background: url("../images/logo_type2_x2.webp") no-repeat;
+        background-size: 76px 46px;
+    }
+    /* 헤더 봇 시작!!!!!!!!!!!!!!!!!!! */
+    #header .header_inner .header_inner_bot{
+        display: none;
+    }
+    /* 헤더 끝!!!!!!!!!!!!!!!!!!!! */
+    /* 메인 메뉴 시작!!!!!!!!!!!!!! */
+    #main{
+        width: 100%;
+        padding-top: 0px;
+    }
+    #main .visual{
+        width: 100%;
+        height: 370px;
+        position: relative;
+    }
+    #main .visual .visual1{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1581302984.jpg") no-repeat center top/500px;
+    }
+    #main .visual .visual2{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1582801182.jpg") no-repeat center top/500px;
+    }
+    #main .visual .visual3{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1583112496.jpg") no-repeat center top/500px;
+    }
+    #main .visual .visual4{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1585032336.jpg") no-repeat center top/500px;
+    }
+    #main .visual .visual5{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1585118367.jpg") no-repeat center top/500px;
+    }
+    #main .visual .visual6{
+        width: 100%;height: 400px;
+        background: url("../m_images/mobile_img_1585211789.jpg") no-repeat center top/500px;
+    }
+    #main .visual .slick-dots>li>button{
+        width: 15px;
+        height: 15px;
+    }
+    #main .visual .slick-dots .slick-active button{
+        width: 25px;
+        height: 15px;
+    }
+    /* 메인 비쥬얼 끝!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 1 시작!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    #section1 .section1_inner{
+        width: 100%;
+        height: 720px;
+        margin: 0 auto;
+    }
+    #section1 .section1_inner .goods li a{
+        width: 100%;
+    }
+    #section1 .section1_inner .goods .slick-prev{
+        position: absolute;right: 10px;top: 30%;
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_next_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    #section1 .section1_inner .goods .slick-next{
+        position: absolute;left: 0px;top: 30%;
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_prev_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 11;
+        cursor: pointer;
+    }
+    #section1 .section1_inner .goods li .goods_picture{
+        width: 100%;
+    }
+    /* 섹션 1 끝!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 2 시작!!!!!!!!!!!!!!!!!!!!!!!! */
+    #section2 .section2_inner{
+        width: 100%;
+        height: 750px;
+        margin: 0 auto;
+        border-top: 1px solid #ddd;
+        position: relative;
+    }
+    #section2 .section2_inner .info{
+        float: none;
+        margin-left: 5%;
+    }
+    #section2 .section2_inner .info .line_1:after{
+        content: '';
+        position: absolute;left: 5%;top: 160px;
+        width: 12px;
+        height: 1px;
+        background: #999;
+    }
+    #section2 .section2_inner .goods_info a .section2_main_goods{
+        width: 100%;
+    }
+    #section2 .section2_inner .goods_info a .section2_sale{
+        position: absolute;left: 0;top: 60px;
+        text-indent: -9999px;
+        width: 80px;
+    }
+    #section2 .section2_inner .goods_info a .count_bg{
+        position: absolute;left: 50%;bottom: 25.2%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        background: rgba(149, 92, 167, 0.6);
+    }
+    #section2 .section2_inner .goods_info a>p{
+        font-size: 12px;
+    }
+    /* 섹션 2 끝!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 3 시작!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    #section3 .section3_inner{
+        width: 100%;
+        height: 685px;
+        margin: 0 auto;
+    }
+    #section3 .section3_inner .event{
+        margin-top: 40px;
+    }
+    #section3 .section3_inner .event li{
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    #section3 .section3_inner .event li a{
+        width: 100%;
+    }
+    #section3 .section3_inner .event li .img_box{
+        width: 130px;
+        height: 131px;
+        overflow: hidden;
+        box-sizing: border-box;
+        float: left;
+        margin-left: 0px;
+    }
+    #section3 .section3_inner .event li img{
+        width: 130px;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #section3 .section3_inner .event li h3{
+        margin-top: 23px;
+        color: #000;
+        font-size: 15px;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    #section3 .section3_inner .event li a>p{
+        margin-top: 13px;
+        color: #999;
+    }
+    /* 섹션 3 끝!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 4 시작!!!!!!!!!!!!!!!!!! */
+    #section4 .section4_inner{
+        width: 100%;
+        height: 750px;
+        margin: 0 auto;
+    }
+    #section4 .section4_inner .discount .slick-prev{
+        position: absolute;right: 0px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_next_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    #section4 .section4_inner .discount .slick-next{
+        position: absolute;left: 0px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_prev_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 11;
+        cursor: pointer;
+    }
+    #section4 .section4_inner .discount{
+        margin-left: 0.5%;
+        width: 100%;
+    }
+    #section4 .section4_inner .discount li{
+        width: 100%;
+    }
+    #section4 .section4_inner .discount li a{
+        width: 100%;
+    }
+    #section4 .section4_inner .discount li a .goods{
+        width: 100%;
+    }
+    #section4 .section4_inner .discount li a .sale_img{
+        width: 40%;
+    }
+    #section4 .section4_inner .discount li a h3{
+        font-size: 13px;
+        color: #333;
+        margin-top: 16px;
+        line-height: 20px;
+    }
+    #section4 .section4_inner .discount li a .sale_price_4{
+        font-size: 12px;
+        color: #333;
+        font-weight: bold;
+        margin-top: 13px;
+    }
+    #section4 .section4_inner .discount li a .o_price_4{
+        font-size: 11px;
+        color: #cdcdcd;
+        font-weight: bold;
+        margin-top: 8px;
+        text-decoration: line-through;
+    }
+    /* 섹션 4 끝!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 5 시작!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    #section5{display: none;}
+    #m_section5{
+        display: block;
+    }
+    #m_section5 .m_section5_inner{
+        width: 100%;
+        height: 900px;
+        margin: 0 auto;
+        border-top: 1px solid #ddd;
+        position: relative;
+    }
+    #m_section5 .m_section5_inner h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 64px;
+        margin-left: 20px;
+    }
+    #m_section5 .m_section5_inner .m_gnb_5{
+        margin-top: 20px;
+    }
+    #m_section5 .m_section5_inner .m_gnb_5 li{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #m_section5 .m_section5_inner .m_gnb_5 li a{
+        display: inline-block;
+        color: #a699a6;
+        font-size: 17px;
+    }
+    #m_section5 .m_section5_inner .goods_5{
+        width: 100%;
+        margin-left: 20px;
+    }
+    #m_section5 .m_section5_inner .goods_5 li{
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #m_section5 .m_section5_inner .goods_5 li a{
+        display: inline-block;
+        text-align: center;
+    }
+    #section5 .section5_inner .goods_5 li img{
+        width: 188px;
+        height: 230px;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #m_section5 .m_section5_inner .goods_5 li a .box_img5{
+        width: 188px;
+        height: 230px;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #m_section5 .m_section5_inner .goods_5 li a img{
+        width: 188px;
+    }
+    #m_section5 .m_section5_inner .goods_5 li a:hover img{
+        width: 188px;
+        transform: scale(1.1);
+    }
+    #m_section5 .m_section5_inner .goods_5 li a h3{
+        margin-top: 23px;
+        color: #000;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #m_section5 .m_section5_inner .goods_5 li a p{
+        margin-top: 18px;
+        color: #999;
+    }
+    #m_section5 .m_section5_inner .md_btn{
+        position: absolute;left: 50%;bottom: -5px;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 35px;
+        background: #fff;
+        border: 1px solid #e3e3e3;
+        text-align: center;
+        line-height: 35px;
+        cursor: pointer;
+    }
+    /* 섹션 5 끝!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 6 시작!!!!!!!!!!!!!!!!!!!!!!! */
+    #section6 .section6_inner{
+        width: 100%;
+        height: 1100px;
+        margin: 0 auto;
+    }
+    #section6 .section6_inner .fr_box{
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+        background: #e6edf2;
+    }
+    #section6 .section6_inner .fr_box h3{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    #section6 .section6_inner .goods_6{
+        margin-top: 50px;
+        margin-left: 2%;
+        width: 100%;
+    }
+    #section6 .section6_inner .goods_6 li{
+        display: inline-block;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #section6 .section6_inner .goods_6 li a{
+        display: block;
+    }
+    #section6 .section6_inner .goods_6 li a .box_img6{
+        width: 188px;
+        height: 230px;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #section6 .section6_inner .goods_6 li a img{
+        width: 188px;
+        height: 230px;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #section6 .section6_inner .goods_6 li a:hover img{
+        width: 188px;
+        transform: scale(1.1);
+    }
+    #section6 .section6_inner .goods_6 li a h4{
+        margin-top: 23px;
+        color: #000;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    #section6 .section6_inner .goods_6 li a .price_6{
+        margin-top: 15px;
+        font-size: 11px;
+        color: #999;
+    }
+    /* 섹션 6 끝!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 7 시작!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    #section7 .section7_inner{
+        width: 100%;
+        height: 830px;
+        margin: 0 auto;
+    }
+    #section7 .section7_inner h2{
+        font-size: 25px;
+        color: #000;
+        font-weight: bold;
+        padding-top: 85px;
+        text-align: center;
+    }
+    #section7 .section7_inner .goods_7{
+        margin-top: 70px;
+        margin-left: 5px;
+        width: 100%;
+    }
+    #section7 .section7_inner .goods_7 li{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+    }
+    #section7 .section7_inner .goods_7 .slick-prev{
+        position: absolute;right: 10px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_next_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    #section7 .section7_inner .goods_7 .slick-next{
+        position: absolute;left: -25px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_prev_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 11;
+        cursor: pointer;
+    }
+    #section7 .section7_inner .goods_7 li a{
+        display: block;
+        width: 100%;
+    }
+    #section7 .section7_inner .goods_7 li a .box_img7{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #section7 .section7_inner .goods_7 li a img{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    #section7 .section7_inner .goods_7 li a:hover img{
+        width: 100%;
+        transform: scale(1.1);
+    }
+    #section7 .section7_inner .goods_7 li a .goods_7_tit{
+        margin-top: 23px;
+        color: #000;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    #section7 .section7_inner .goods_7 li a .price_7{
+        margin-top: 12px;
+        color: #000;
+    }
+    /* 섹션 7끝!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션8 시작!!!!!!!!!!!!!!!!!!!! */
+    #section8 .section8_inner{
+        width: 100%;
+        height: 1300px;
+        margin: 0 auto;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8{
+        margin: 40px 0px 0px 10px
+    }
+    .section8_inner_top .goods_8 li{
+        margin-left: 18px;
+    }
+    .section8_inner_top .goods_8 li a{
+        display: block;
+        text-align: center;
+    }
+    .section8_inner_top .goods_8 li a h3{
+        color: #333;
+        margin-top: 16px;
+    }
+    .section8_inner_top .goods_8 li a img{
+        width: 250px;
+        height: 180px;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8 .slick-prev{
+        position: absolute;right: 10px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_next_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8 .slick-next{
+        position: absolute;left: 0px;top: 45%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/btn_prev_default_hover_x1.webp") no-repeat;
+        background-size: 40px;
+        border: none;
+        text-indent: -9999px;
+        z-index: 11;
+        cursor: pointer;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8{
+        width: 100%;
+        margin-left: -1%;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8 li{
+        display: inline-block;
+        position: relative;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8 li a{
+        width: 100%;
+    }
+    #section8 .section8_inner .section8_inner_top .goods_8 li a img{
+        width: 100%;
+        height: 100%;
+    }
+    /* 섹션 8 탑 끝!!!!!!!!!!!!!!!!!!!!!! */
+    /* 섹션 8 봇 시작!!!!!!!!!!!!!!!!!!!! */
+    #section8 .section8_inner .section8_inner_bot .h2_bot{
+        margin-top: 130px;;
+        text-align: center;
+        font-size: 26px;
+    }
+    #section8 .section8_inner .section8_inner_bot .insta li a img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 섹션 8 끝!!!!!!!!!!!!! */
+    /* 푸터 시작!!!!!!!!!!!! */
+    #footer .footer_inner{
+        width: 100%;
+        height: 550px;
+        margin: 0 auto;
+    }
+    #footer .footer_inner .dele{
+        width: 100%;
+        display: block;
+    }
+    #footer .footer_inner .dele>img{
+        width: 100%;
+    }
+    #footer .footer_inner .footer_inner_top{
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        border-bottom: 1px solid #eeeeee;
+    }
+    #footer .footer_inner .footer_inner_top .foonter_left{
+        float: none;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .footer_inner_top .foonter_left .center li:nth-child(1){
+        font-weight: bold;
+        font-size: 13px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .footer_inner_top .foonter_left .center li:nth-child(2){
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer_inner_top .foonter_left button{
+        display: inline-block;
+        border: 1px solid #e3e3e3;
+        border-radius: 5px;
+        background: transparent;
+        width: 100px;
+        height: 40px;
+    }
+    .footer_inner_top .footer_middle{
+        float: left;
+    }
+    .footer_inner_top .footer_middle .center_time{
+        padding-top: 20px;
+    }
+    .footer_inner_top .footer_middle .center_time li{
+        margin-left: 20px;
+    }
+    .footer_inner_top .footer_middle .center_time li:nth-child(2n-1){
+        color: #000; 
+        margin-bottom: 10px;
+    }
+    .footer_inner_top .footer_middle .center_time li:nth-child(2n){
+        color: #999;
+        margin-bottom: 25px;
+    }
+    .footer_inner_top .footer_right{
+        clear: both;
+        width: 100%;
+        margin-left: 1%;
+    }
+    .footer_inner_top .footer_right .user{
+        padding-top: 35px;
+    }
+    .footer_inner_top .footer_right .user li{
+        float: left;
+        margin-left: 7px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .footer_inner_bot{
+        width: 100%;
+        height: 110px;
+        margin: 0 auto;
+    }
+    .footer_inner_bot .f_img1{
+        float: none;
+        width: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer_inner_bot .f_p1{
+        float: none;
+        font-size: 10px;
+        color: #b5b5b5;
+        line-height: 15px;
+        margin-left: 11px;
+        margin-top: 20px;
+    }
+    .footer_inner_bot .f_img2{
+        float: none;
+        width: 60px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .footer_inner_bot .f_p2{
+        float: none;
+        font-size: 10px;
+        color: #b5b5b5;
+        line-height: 15px;
+        margin-left: 11px;
+        margin-top: 20px;
+    }
+    .footer_inner_bot .sns{
+        float: none;
+        margin: 50px 0px 0px 20px;
+        padding-bottom: 30px;
+    }
+    .footer_inner_bot .sns li:nth-child(1){
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
